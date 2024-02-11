@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  
+  nav {
+    width: 100%;
+    height: 100px;
+    background: #000;
+  }
+  
+  .container1 {
+    max-width:80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    margin: auto;   
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-pojeck{
+    width: 5vw;
+    object-fit: contain;
+    align-items: center;
+  }
+  
+  .menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+  }
+  
+  .menu li{
+    margin: 10px;
+  }
+
+  .menu li a{
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .container2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .card-image {
+    width: 100px; /* กำหนดความกว้างของรูปภาพเป็น 300 พิกเซล */
+    height: auto; /* ความสูงจะถูกปรับแสดงสัดส่วนตามอัตราส่วน */
+  }
+
+  .form-control {
+    margin-bottom: 20px; /* ระยะห่างด้านล่างของฟอร์ม */
+  }
+  
+  .input-control {
+    margin-bottom: 10px; /* ระยะห่างด้านล่างของอิลิเมนต์ฟอร์ม */
+  }
+  
+  .input-control__label {
+    display: block; /* แสดงข้อความเป็นบล็อก */
+    margin-bottom: 5px; /* ระยะห่างด้านล่างของข้อความฟอร์ม */
+  }
+  
+  .input-control__input {
+    width: 100%; /* กว้างเต็มรูปแบบ */
+    padding: 10px; /* ขนาดของพื้นที่ใน textbox */
+    border: 1px solid #ccc; /* เส้นขอบของ textbox */
+    border-radius: 5px; /* การโค้งของเส้นขอบ */
+    box-sizing: border-box; /* ให้ขนาดของกล่องคำนวณรวม border และ padding */
+  }
+  
+  .btn {
+    display: inline-block; /* แสดงปุ่มเป็นอินไลน์บล็อก */
+    padding: 10px 20px; /* ขนาดของพื้นที่ของปุ่ม */
+    background-color: #007bff; /* สีพื้นหลังของปุ่ม */
+    color: #fff; /* สีข้อความภายในปุ่ม */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 5px; /* การโค้งของเส้นขอบ */
+    cursor: pointer; /* แสดงเคอร์เซอร์เป็นลูกศร */
+    text-decoration: none; /* ไม่มีเส้นใต้ข้อความ */
+  }
+  
+  .btn-primary {
+    background-color: #007bff; /* สีพื้นหลังของปุ่มหลัก */
+  }
+  
+  .btn-secondary {
+    background-color: #6c757d; /* สีพื้นหลังของปุ่มที่สอง */
+  }
+  
+  /* สไตล์เพิ่มเติมตามที่ต้องการ */
